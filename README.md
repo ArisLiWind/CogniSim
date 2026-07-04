@@ -1,7 +1,5 @@
 # CogniSim Tech
 
-Building the infrastructure for intelligent agents while advancing the science of intelligence.
-
 ## Vision
 
 To fulfill what people truly desire — and to make profound, lasting contributions to the world.
