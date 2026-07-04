@@ -11,8 +11,8 @@ To fulfill what people truly desire — and to make profound, lasting contributi
 | Section | Content |
 |---|---|
 | Home | Hero with deep-space backdrop + Company Slogan + Core data highlights |
-| Products | ContentX flagship product + Mesh communication protocol + Agent Harness architecture (5 pillars) |
-| Research | Aris Science and Technology Research Center — Computational Neuroscience / BCI / AR, marked as confidential |
+| Products | ContentX flagship product + Mesh communication protocol + Agent Harness architecture  |
+| Research | Aris Science and Technology Research Center — Computational Neuroscience / BCI |
 | Media | BiRan INEV — Media brand for research insights and technical perspectives |
 | About | Vision / Mission / Values + Shenzhen / Chongqing / Shanghai locations |
 | Careers | Open positions + Resume submission |
