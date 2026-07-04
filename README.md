@@ -14,6 +14,6 @@ To fulfill what people truly desire — and to make profound, lasting contributi
 | Products | ContentX flagship product + Mesh communication protocol + Agent Harness architecture  |
 | Research | Aris Science and Technology Research Center — Computational Neuroscience / BCI |
 | Media | BiRan INEV — Media brand for research insights and technical perspectives |
-| About | Vision / Mission / Values + Shenzhen / Chongqing / Shanghai locations |
+| About | Mission / Values |
 | Careers | Open positions + Resume submission |
 | Contact | Contact info + ContentX / SuiMesh / BiRan INEV external links |
