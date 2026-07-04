@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CogniSim Tech - Cognitive Simulation Technology</title>
+  <title>CogniSim Tech - 维境拟生科技</title>
   <meta name="description" content="CogniSim Tech builds the infrastructure for intelligent agents while advancing the science of intelligence.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='white'>C</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,14 +17,15 @@
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
       <a href="#" class="nav-brand">
-        <span class="nav-brand-name">CogniSim</span>
-        <span class="nav-brand-sub">COGNISIM TECH</span>
+        <span class="nav-brand-name" data-i18n="brand-name">CogniSim</span>
+        <span class="nav-brand-sub" data-i18n="brand-sub">COGNISIM TECH</span>
       </a>
       <div class="nav-links" id="navLinks">
-        <a href="#research" class="nav-link">RESEARCH</a>
-        <a href="#products" class="nav-link">PRODUCTS</a>
-        <a href="#protocol" class="nav-link">PROTOCOL</a>
-        <a href="#media" class="nav-link">MEDIA</a>
+        <a href="#research" class="nav-link" data-i18n="nav-research">RESEARCH</a>
+        <a href="#products" class="nav-link" data-i18n="nav-products">PRODUCTS</a>
+        <a href="#protocol" class="nav-link" data-i18n="nav-protocol">PROTOCOL</a>
+        <a href="#media" class="nav-link" data-i18n="nav-media">MEDIA</a>
+        <button class="lang-btn" id="langBtn" aria-label="Switch language">中文</button>
       </div>
       <button class="nav-toggle" id="navToggle" aria-label="Menu">
         <span></span>
@@ -40,9 +41,9 @@
       <div class="hero-fade"></div>
     </div>
     <div class="hero-content">
-      <h1 class="hero-title">CogniSim</h1>
+      <h1 class="hero-title" data-i18n="hero-title">CogniSim</h1>
       <div class="hero-line"></div>
-      <p class="hero-subtitle">
+      <p class="hero-subtitle" data-i18n-html="hero-subtitle">
         Building the infrastructure for intelligent agents<br>
         while advancing the science of intelligence.
       </p>
@@ -55,9 +56,9 @@
   <!-- ===== RESEARCH ===== -->
   <section class="section" id="research">
     <div class="section-inner">
-      <span class="section-label">01 / RESEARCH</span>
-      <h2 class="section-title">Aris Science and<br>Technology Research Center</h2>
-      <p class="section-body">
+      <span class="section-label" data-i18n="research-label">01 / RESEARCH</span>
+      <h2 class="section-title" data-i18n-html="research-title">Aris Science and<br>Technology Research Center</h2>
+      <p class="section-body" data-i18n-html="research-body">
         We explore the origins of consciousness through computational neuroscience,<br>
         brain-computer interfaces, and augmented reality. Our research feeds directly<br>
         into the products and protocols we build.
@@ -65,18 +66,18 @@
       <div class="research-grid">
         <div class="research-item">
           <span class="research-num">01</span>
-          <h3>Computational Neuroscience</h3>
-          <p>The theoretical foundation. Mathematical models of neural information processing.</p>
+          <h3 data-i18n="research-dir1-title">Computational Neuroscience</h3>
+          <p data-i18n="research-dir1-desc">The theoretical foundation. Mathematical models of neural information processing.</p>
         </div>
         <div class="research-item">
           <span class="research-num">02</span>
-          <h3>Brain-Computer Interface</h3>
-          <p>Connecting consciousness to the external world. A key collaboration direction.</p>
+          <h3 data-i18n="research-dir2-title">Brain-Computer Interface</h3>
+          <p data-i18n="research-dir2-desc">Connecting consciousness to the external world. A key collaboration direction.</p>
         </div>
         <div class="research-item">
           <span class="research-num">03</span>
-          <h3>Augmented Reality</h3>
-          <p>The display layer of consciousness connection. Full reality rendering.</p>
+          <h3 data-i18n="research-dir3-title">Augmented Reality</h3>
+          <p data-i18n="research-dir3-desc">The display layer of consciousness connection. Full reality rendering.</p>
         </div>
       </div>
     </div>
@@ -85,75 +86,75 @@
   <!-- ===== PRODUCTS ===== -->
   <section class="section section-alt" id="products">
     <div class="section-inner">
-      <span class="section-label">02 / PRODUCTS</span>
+      <span class="section-label" data-i18n="products-label">02 / PRODUCTS</span>
       <h2 class="section-title">Content X</h2>
-      <p class="section-body">
+      <p class="section-body" data-i18n-html="products-body">
         An AI content platform powered by multi-agent collaboration.<br>
         Built on the Agent Harness architecture and communicating via the Mesh protocol.
       </p>
       <div class="product-features-min">
-        <div class="pf-item">Multi-Agent Collaboration</div>
-        <div class="pf-item">Mesh Protocol Communication</div>
-        <div class="pf-item">Intelligent Content Orchestration</div>
+        <div class="pf-item" data-i18n="products-f1">Multi-Agent Collaboration</div>
+        <div class="pf-item" data-i18n="products-f2">Mesh Protocol Communication</div>
+        <div class="pf-item" data-i18n="products-f3">Intelligent Content Orchestration</div>
       </div>
-      <a href="#" class="section-link">Visit ContentX &rarr;</a>
+      <a href="#" class="section-link" data-i18n="products-link">Visit ContentX &rarr;</a>
     </div>
   </section>
 
   <!-- ===== PROTOCOL ===== -->
   <section class="section" id="protocol">
     <div class="section-inner">
-      <span class="section-label">03 / PROTOCOL</span>
+      <span class="section-label" data-i18n="protocol-label">03 / PROTOCOL</span>
       <h2 class="section-title">Mesh</h2>
-      <p class="section-body">
+      <p class="section-body" data-i18n-html="protocol-body">
         A communication protocol for AI agents. Mesh enables discovery, authentication,<br>
         collaboration, and data exchange between intelligent agents in a decentralized manner.
       </p>
       <div class="protocol-detail">
         <div class="pd-item">
-          <span class="pd-label">DISCOVERY</span>
-          <span class="pd-desc">Decentralized agent discovery</span>
+          <span class="pd-label" data-i18n="protocol-d1-label">DISCOVERY</span>
+          <span class="pd-desc" data-i18n="protocol-d1-desc">Decentralized agent discovery</span>
         </div>
         <div class="pd-item">
-          <span class="pd-label">AUTHENTICATION</span>
-          <span class="pd-desc">Secure identity verification</span>
+          <span class="pd-label" data-i18n="protocol-d2-label">AUTHENTICATION</span>
+          <span class="pd-desc" data-i18n="protocol-d2-desc">Secure identity verification</span>
         </div>
         <div class="pd-item">
-          <span class="pd-label">INTEROPERABILITY</span>
-          <span class="pd-desc">Standardized protocol layer</span>
+          <span class="pd-label" data-i18n="protocol-d3-label">INTEROPERABILITY</span>
+          <span class="pd-desc" data-i18n="protocol-d3-desc">Standardized protocol layer</span>
         </div>
       </div>
-      <a href="#" class="section-link">SuiMesh Documentation &rarr;</a>
+      <a href="#" class="section-link" data-i18n="protocol-link">SuiMesh Documentation &rarr;</a>
     </div>
   </section>
 
   <!-- ===== MEDIA ===== -->
   <section class="section section-alt" id="media">
     <div class="section-inner">
-      <span class="section-label">04 / MEDIA</span>
+      <span class="section-label" data-i18n="media-label">04 / MEDIA</span>
       <h2 class="section-title">BiRan INEV</h2>
-      <p class="section-body">
+      <p class="section-body" data-i18n-html="media-body">
         Our media brand publishing research insights, technical thinking, and industry perspectives.<br>
         BiRan INEV also serves as a real-world validation ground for ContentX.
       </p>
-      <a href="#" class="section-link">Visit BiRan INEV &rarr;</a>
+      <a href="#" class="section-link" data-i18n="media-link">Visit BiRan INEV &rarr;</a>
     </div>
   </section>
 
   <!-- ===== ABOUT ===== -->
   <section class="section" id="about">
     <div class="section-inner">
-      <span class="section-label">ABOUT</span>
-      <h2 class="section-title">CogniSim<br>Technology Co., Ltd.</h2>
-      <p class="section-body">
+      <span class="section-label" data-i18n="about-label">ABOUT</span>
+      <h2 class="section-title" data-i18n-html="about-title">CogniSim<br>Technology Co., Ltd.</h2>
+      <p class="section-body" data-i18n-html="about-body">
         Founded in Shenzhen, CogniSim Tech is an angel-stage AI company.<br>
         We believe the next breakthrough in technology will emerge at the intersection of<br>
         consciousness science and intelligent systems.
       </p>
       <div class="locations">
-        <div class="loc">Shenzhen — HQ</div>
-        <div class="loc">Chongqing — R&D</div>
-        <div class="loc">Shanghai — R&D</div>
+        <div class="loc" data-i18n="loc-shenzhen">Shenzhen — HQ</div>
+        <div class="loc" data-i18n="loc-chongqing">Chongqing — R&D</div>
+        <div class="loc" data-i18n="loc-shanghai">Shanghai — R&D</div>
       </div>
     </div>
   </section>
@@ -161,39 +162,39 @@
   <!-- ===== CAREERS ===== -->
   <section class="section section-alt" id="careers">
     <div class="section-inner">
-      <span class="section-label">CAREERS</span>
-      <h2 class="section-title">Join Us</h2>
-      <p class="section-body">
+      <span class="section-label" data-i18n="careers-label">CAREERS</span>
+      <h2 class="section-title" data-i18n="careers-title">Join Us</h2>
+      <p class="section-body" data-i18n-html="careers-body">
         We are a small, flat team with high autonomy.<br>
         If you are passionate about AI agents, computational neuroscience, or frontier technology,<br>
         we would love to hear from you.
       </p>
       <div class="role-list">
-        <div class="role">AI Agent Engineer</div>
-        <div class="role">Computational Neuroscience Researcher</div>
-        <div class="role">ContentX Product Manager</div>
+        <div class="role" data-i18n="role1">AI Agent Engineer</div>
+        <div class="role" data-i18n="role2">Computational Neuroscience Researcher</div>
+        <div class="role" data-i18n="role3">ContentX Product Manager</div>
       </div>
-      <a href="#contact" class="section-link">Send Resume &rarr;</a>
+      <a href="#contact" class="section-link" data-i18n="careers-link">Send Resume &rarr;</a>
     </div>
   </section>
 
   <!-- ===== CONTACT ===== -->
   <section class="section" id="contact">
     <div class="section-inner">
-      <span class="section-label">CONTACT</span>
-      <h2 class="section-title">Get in Touch</h2>
+      <span class="section-label" data-i18n="contact-label">CONTACT</span>
+      <h2 class="section-title" data-i18n="contact-title">Get in Touch</h2>
       <div class="contact-grid">
         <div class="contact-item">
-          <span class="contact-label">EMAIL</span>
+          <span class="contact-label" data-i18n="contact-email-label">EMAIL</span>
           <span class="contact-value">contact@cognisim.tech</span>
         </div>
         <div class="contact-item">
-          <span class="contact-label">GITHUB</span>
+          <span class="contact-label" data-i18n="contact-github-label">GITHUB</span>
           <a href="https://github.com/ArisLiWind" target="_blank" rel="noopener" class="contact-value">github.com/ArisLiWind</a>
         </div>
         <div class="contact-item">
-          <span class="contact-label">HEADQUARTERS</span>
-          <span class="contact-value">Futian District, Shenzhen</span>
+          <span class="contact-label" data-i18n="contact-hq-label">HEADQUARTERS</span>
+          <span class="contact-value" data-i18n="contact-hq-value">Futian District, Shenzhen</span>
         </div>
       </div>
     </div>
@@ -202,8 +203,8 @@
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="footer-inner">
-      <span class="footer-brand">CogniSim</span>
-      <span class="footer-copy">&copy; 2024&ndash;2026 CogniSim Technology Co., Ltd.</span>
+      <span class="footer-brand" data-i18n="footer-brand">CogniSim</span>
+      <span class="footer-copy" data-i18n="footer-copy">&copy; 2024&ndash;2026 CogniSim Technology Co., Ltd.</span>
     </div>
   </footer>
 
