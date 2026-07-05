@@ -88,19 +88,7 @@ body.lang-zh .section-title {
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 10px;
   flex-shrink: 0;
-}
-
-.nav-brand-icon {
-  width: 32px;
-  height: 32px;
-  color: var(--accent);
-}
-
-.nav-brand-icon svg {
-  width: 100%;
-  height: 100%;
 }
 
 .nav-brand-name {
@@ -834,17 +822,6 @@ a.cc-value:hover {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.footer-logo {
-  width: 28px;
-  height: 28px;
-  color: var(--accent);
-}
-
-.footer-logo svg {
-  width: 100%;
-  height: 100%;
 }
 
 .footer-name {
